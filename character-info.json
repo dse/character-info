@@ -5,7 +5,8 @@
         { "name": "7-bit structure/rules", "url": "https://ecma-international.org/wp-content/uploads/ECMA-43_3rd_edition_december_1991.pdf" },
         { "name": "8-bit Latin 1 through 4", "url": "https://ecma-international.org/publications-and-standards/standards/ecma-94" },
         { "name": "Unicode Alias Names and Abbreviations", "url": "https://en.wikipedia.org/wiki/Unicode_alias_names_and_abbreviations" },
-        { "name": "Source of Info", "url": "https://www.compart.com/en/unicode/U+0080" }
+        { "name": "Source of Info", "url": "https://www.compart.com/en/unicode/U+0080" },
+        { "name": "XTerm Control Sequences", "url": "https://invisible-island.net/xterm/ctlseqs/ctlseqs.html" }
     ],
     "characters": {
         "U+0000": {
@@ -41,7 +42,8 @@
         "U+0005": {
             "abbreviation": ["ENQ"],
             "name": [
-                "ENQUIRY"
+                "ENQUIRY",
+                "RETURN TERMINAL STATUS"
             ]
         },
         "U+0006": {
@@ -87,7 +89,8 @@
         "U+000C": {
             "abbreviation": ["FF"],
             "name": [
-                "FORM FEED"
+                "FORM FEED",
+                "NEW PAGE"
             ]
         },
         "U+000D": {
@@ -99,13 +102,17 @@
         "U+000E": {
             "abbreviation": ["SO", "LS1"],
             "name": [
-                "SHIFT OUT"
+                "SHIFT OUT",
+                "LOCKING-SHIFT ONE",
+                "SWITCH TO ALTERNATE CHARACTER SET"
             ]
         },
         "U+000F": {
             "abbreviation": ["SI", "LS0"],
             "name": [
-                "SHIFT IN"
+                "SHIFT IN",
+                "LOCKING-SHIFT ZERO",
+                "SWITCH TO STANDARD CHARACTER SET"
             ]
         },
         "U+0010": {
@@ -186,7 +193,10 @@
             "abbreviation": ["IS4", "FS"],
             "name": [
                 "INFORMATION SEPARATOR FOUR",
-                "FIELD SEPARATOR"
+                "FILE SEPARATOR"
+            ],
+            "comment": [
+                "Default subscript separator for multidimensional array emulation in Awk (SUBSEP) and Perl ($;)."
             ]
         },
         "U+001D": {
@@ -223,12 +233,18 @@
             "abbreviation": ["PAD"],
             "name": [
                 "PADDING CHARACTER"
+            ],
+            "comment": [
+                "obsolete or unofficial"
             ]
         },
         "U+0081": {
             "abbreviation": ["HOP"],
             "name": [
                 "HIGH OCTET PRESET"
+            ],
+            "comment": [
+                "obsolete or unofficial"
             ]
         },
         "U+0082": {
@@ -245,12 +261,17 @@
         },
         "U+0084": {
             "abbreviation": ["IND"],
+            "sequence": "\u001bD",
             "name": [
                 "INDEX"
+            ],
+            "comment": [
+                "obsolete or unofficial"
             ]
         },
         "U+0085": {
             "abbreviation": ["NEL"],
+            "sequence": "\u001bE",
             "name": [
                 "NEXT LINE"
             ]
@@ -269,6 +290,7 @@
         },
         "U+0088": {
             "abbreviation": ["HTS"],
+            "sequence": "\u001bH",
             "name": [
                 "CHARACTER TABULATION SET",
                 "HORIZONTAL TABULATION SET"
@@ -304,6 +326,7 @@
         },
         "U+008D": {
             "abbreviation": ["RI"],
+            "sequence": "\u001bM",
             "name": [
                 "REVERSE LINE FEED",
                 "REVERSE INDEX"
@@ -311,6 +334,7 @@
         },
         "U+008E": {
             "abbreviation": ["SS2"],
+            "sequence": "\u001bN",
             "name": [
                 "SINGLE-SHIFT TWO",
                 "SINGLE-SHIFT-2"
@@ -318,6 +342,7 @@
         },
         "U+008F": {
             "abbreviation": ["SS3"],
+            "sequence": "\u001bO",
             "name": [
                 "SINGLE-SHIFT THREE",
                 "SINGLE-SHIFT-3"
@@ -325,6 +350,7 @@
         },
         "U+0090": {
             "abbreviation": ["DCS"],
+            "sequence": "\u001bP",
             "name": [
                 "DEVICE CONTROL STRING"
             ]
@@ -363,6 +389,7 @@
         },
         "U+0096": {
             "abbreviation": ["SPA"],
+            "sequence": "\u001bV",
             "name": [
                 "START OF GUARDED AREA",
                 "START OF PROTECTED AREA"
@@ -370,6 +397,7 @@
         },
         "U+0097": {
             "abbreviation": ["EPA"],
+            "sequence": "\u001bW",
             "name": [
                 "END OF GUARDED AREA",
                 "END OF PROTECTED AREA"
@@ -377,6 +405,7 @@
         },
         "U+0098": {
             "abbreviation": ["SOS"],
+            "sequence": "\u001bX",
             "name": [
                 "START OF STRING"
             ]
@@ -385,40 +414,49 @@
             "abbreviation": ["SGC"],
             "name": [
                 "SINGLE GRAPHIC CHARACTER INTRODUCER"
+            ],
+            "comment": [
+                "obsolete or unofficial"
             ]
         },
         "U+009A": {
             "abbreviation": ["SCI"],
+            "sequence": "\u001bZ",
             "name": [
                 "SINGLE GRAPHIC INTRODUCER"
             ]
         },
         "U+009B": {
             "abbreviation": ["CSI"],
+            "sequence": "\u001b[",
             "name": [
                 "CONTROL SEQUENCE INTRODUCER"
             ]
         },
         "U+009C": {
             "abbreviation": ["ST"],
+            "sequence": "\u001b\\",
             "name": [
                 "STRING TERMINATOR"
             ]
         },
         "U+009D": {
             "abbreviation": ["OSC"],
+            "sequence": "\u001b]",
             "name": [
                 "OPERATING SYSTEM COMMAND"
             ]
         },
         "U+009E": {
             "abbreviation": ["PM"],
+            "sequence": "\u001b^",
             "name": [
                 "PRIVACY MESSAGE"
             ]
         },
         "U+009F": {
             "abbreviation": ["APC"],
+            "sequence": "\u001b_",
             "name": [
                 "APPLICATION PROGRAM COMMAND"
             ]
@@ -434,6 +472,12 @@
         },
         "U+061C": {
             "abbreviation": ["ALM"]
+        },
+        "U+070F": {
+            "abbreviation": ["SAM"],
+            "name": [
+                "SYRIAC ABBREVIATION MARK"
+            ]
         },
         "U+180B": {
             "abbreviation": ["FVS1"]
@@ -544,16 +588,10 @@
             "abbreviation": ["VS16"]
         },
         "U+FEFF": {
-            "abbreviation": ["BOM", "ZWNBSP"],
+            "abbreviation": ["ZWNBSP", "BOM"],
             "name": [
-                "BYTE ORDER MARK",
-                "ZERO WIDTH NO-BREAK SPACE"
-            ]
-        },
-        "U+070F": {
-            "abbreviation": ["SAM"],
-            "name": [
-                "SYRIAC ABBREVIATION MARK"
+                "ZERO WIDTH NO-BREAK SPACE",
+                "BYTE ORDER MARK"
             ]
         },
         "U+E0100": { "abbreviation": ["VS17"] },
