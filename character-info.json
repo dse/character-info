@@ -9,69 +9,80 @@
         { "name": "XTerm Control Sequences", "url": "https://invisible-island.net/xterm/ctlseqs/ctlseqs.html" }
     ],
     "characters": {
-        "U+0000": {
+        "0": {
+            "unicode_hex": "U+0000",
             "abbreviation": ["NUL"],
             "name": [
                 "NULL"
             ]
         },
-        "U+0001": {
+        "1": {
+            "unicode_hex": "U+0001",
             "abbreviation": ["SOH"],
             "name": [
                 "START OF HEADING"
             ]
         },
-        "U+0002": {
+        "2": {
+            "unicode_hex": "U+0002",
             "abbreviation": ["STX"],
             "name": [
                 "START OF TEXT"
             ]
         },
-        "U+0003": {
+        "3": {
+            "unicode_hex": "U+0003",
             "abbreviation": ["ETX"],
             "name": [
                 "END OF TEXT"
             ]
         },
-        "U+0004": {
+        "4": {
+            "unicode_hex": "U+0004",
             "abbreviation": ["EOT"],
             "name": [
                 "END OF TRANSMISSION"
             ]
         },
-        "U+0005": {
+        "5": {
+            "unicode_hex": "U+0005",
             "abbreviation": ["ENQ"],
             "name": [
                 "ENQUIRY",
                 "RETURN TERMINAL STATUS"
             ]
         },
-        "U+0006": {
+        "6": {
+            "unicode_hex": "U+0006",
             "abbreviation": ["ACK"],
             "name": [
                 "ACKNOWLEDGE"
             ]
         },
-        "U+0007": {
+        "7": {
+            "unicode_hex": "U+0007",
             "abbreviation": ["BEL"],
             "name": [
                 "ENQUIRY"
             ]
         },
-        "U+0008": {
+        "8": {
+            "unicode_hex": "U+0008",
             "abbreviation": ["BS"],
             "name": [
                 "BACKSPACE"
             ]
         },
-        "U+0009": {
+        "9": {
+            "unicode_hex": "U+0009",
             "abbreviation": ["HT", "TAB"],
             "name": [
                 "CHARACTER TABULATION",
                 "HORIZONTAL TABULATION"
             ]
         },
-        "U+000A": {
+        "10": {
+            "unicode_hex": "U+000A",
             "abbreviation": ["LF", "NL", "EOL"],
             "name": [
                 "LINE FEED",
@@ -79,27 +90,31 @@
                 "END OF LINE"
             ]
         },
-        "U+000B": {
+        "11": {
+            "unicode_hex": "U+000B",
             "abbreviation": ["VT"],
             "name": [
                 "LINE TABULATION",
                 "VERTICAL TABULATION"
             ]
         },
-        "U+000C": {
+        "12": {
+            "unicode_hex": "U+000C",
             "abbreviation": ["FF"],
             "name": [
                 "FORM FEED",
                 "NEW PAGE"
             ]
         },
-        "U+000D": {
+        "13": {
+            "unicode_hex": "U+000D",
             "abbreviation": ["CR"],
             "name": [
                 "CARRIAGE RETURN"
             ]
         },
-        "U+000E": {
+        "14": {
+            "unicode_hex": "U+000E",
             "abbreviation": ["SO", "LS1"],
             "name": [
                 "SHIFT OUT",
@@ -107,7 +122,8 @@
                 "SWITCH TO ALTERNATE CHARACTER SET"
             ]
         },
-        "U+000F": {
+        "15": {
+            "unicode_hex": "U+000F",
             "abbreviation": ["SI", "LS0"],
             "name": [
                 "SHIFT IN",
@@ -115,81 +131,94 @@
                 "SWITCH TO STANDARD CHARACTER SET"
             ]
         },
-        "U+0010": {
+        "16": {
+            "unicode_hex": "U+0010",
             "abbreviation": ["DLE"],
             "name": [
                 "DATA LINK ESCAPE"
             ]
         },
-        "U+0011": {
+        "17": {
+            "unicode_hex": "U+0011",
             "abbreviation": ["DC1"],
             "name": [
                 "DEVICE CONTROL ONE",
                 "XON"
             ]
         },
-        "U+0012": {
+        "18": {
+            "unicode_hex": "U+0012",
             "abbreviation": ["DC2"],
             "name": [
                 "DEVICE CONTROL TWO"
             ]
         },
-        "U+0013": {
+        "19": {
+            "unicode_hex": "U+0013",
             "abbreviation": ["DC3"],
             "name": [
                 "DEVICE CONTROL THREE",
                 "XOFF"
             ]
         },
-        "U+0014": {
+        "20": {
+            "unicode_hex": "U+0014",
             "abbreviation": ["DC4"],
             "name": [
                 "DEVICE CONTROL FOUR"
             ]
         },
-        "U+0015": {
+        "21": {
+            "unicode_hex": "U+0015",
             "abbreviation": ["NAK"],
             "name": [
                 "NEGATIVE ACKNOWLEDGE"
             ]
         },
-        "U+0016": {
+        "22": {
+            "unicode_hex": "U+0016",
             "abbreviation": ["SYN"],
             "name": [
                 "SYNCHRONOUS IDLE"
             ]
         },
-        "U+0017": {
+        "23": {
+            "unicode_hex": "U+0017",
             "abbreviation": ["ETB"],
             "name": [
                 "END OF TRANSMISSION BLOCK"
             ]
         },
-        "U+0018": {
+        "24": {
+            "unicode_hex": "U+0018",
             "abbreviation": ["CAN"],
             "name": [
                 "CANCEL"
             ]
         },
-        "U+0019": {
+        "25": {
+            "unicode_hex": "U+0019",
             "abbreviation": ["EM"],
             "name": [
                 "END OF MEDIUM"
             ]
         },
-        "U+001A": {
+        "26": {
+            "unicode_hex": "U+001A",
             "abbreviation": ["SUB"],
             "name": [
                 "SUBSTITUTE"
             ]
         },
-        "U+001B": {
+        "27": {
+            "unicode_hex": "U+001B",
             "abbreviation": ["ESC"],
             "name": [
                 "ESCAPE"
             ]
         },
-        "U+001C": {
+        "28": {
+            "unicode_hex": "U+001C",
             "abbreviation": ["IS4", "FS"],
             "name": [
                 "INFORMATION SEPARATOR FOUR",
@@ -199,37 +228,43 @@
                 "Default subscript separator for multidimensional array emulation in Awk (SUBSEP) and Perl ($;)."
             ]
         },
-        "U+001D": {
+        "29": {
+            "unicode_hex": "U+001D",
             "abbreviation": ["IS3", "GS"],
             "name": [
                 "INFORMATION SEPARATOR THREE",
                 "GROUP SEPARATOR"
             ]
         },
-        "U+001E": {
+        "30": {
+            "unicode_hex": "U+001E",
             "abbreviation": ["IS2", "RS"],
             "name": [
                 "INFORMATION SEPARATOR TWO",
                 "RECORD SEPARATOR"
             ]
         },
-        "U+001F": {
+        "31": {
+            "unicode_hex": "U+001F",
             "abbreviation": ["IS1", "US"],
             "name": [
                 "INFORMATION SEPARATOR ONE",
                 "UNIT SEPARATOR"
             ]
         },
-        "U+0020": {
+        "32": {
+            "unicode_hex": "U+0020",
             "abbreviation": ["SP"]
         },
-        "U+007F": {
+        "127": {
+            "unicode_hex": "U+007F",
             "abbreviation": ["DEL"],
             "name": [
                 "DELETE"
             ]
         },
-        "U+0080": {
+        "128": {
+            "unicode_hex": "U+0080",
             "abbreviation": ["PAD"],
             "name": [
                 "PADDING CHARACTER"
@@ -238,7 +273,8 @@
                 "obsolete or unofficial"
             ]
         },
-        "U+0081": {
+        "129": {
+            "unicode_hex": "U+0081",
             "abbreviation": ["HOP"],
             "name": [
                 "HIGH OCTET PRESET"
@@ -247,19 +283,22 @@
                 "obsolete or unofficial"
             ]
         },
-        "U+0082": {
+        "130": {
+            "unicode_hex": "U+0082",
             "abbreviation": ["BPH"],
             "name": [
                 "BREAK PERMITTED HERE"
             ]
         },
-        "U+0083": {
+        "131": {
+            "unicode_hex": "U+0083",
             "abbreviation": ["NBH"],
             "name": [
                 "NO BREAK HERE"
             ]
         },
-        "U+0084": {
+        "132": {
+            "unicode_hex": "U+0084",
             "abbreviation": ["IND"],
             "sequence": "\u001bD",
             "name": [
@@ -269,26 +308,30 @@
                 "obsolete or unofficial"
             ]
         },
-        "U+0085": {
+        "133": {
+            "unicode_hex": "U+0085",
             "abbreviation": ["NEL"],
             "sequence": "\u001bE",
             "name": [
                 "NEXT LINE"
             ]
         },
-        "U+0086": {
+        "134": {
+            "unicode_hex": "U+0086",
             "abbreviation": ["SSA"],
             "name": [
                 "START OF SELECTED AREA"
             ]
         },
-        "U+0087": {
+        "135": {
+            "unicode_hex": "U+0087",
             "abbreviation": ["ESA"],
             "name": [
                 "END OF SELECTED AREA"
             ]
         },
-        "U+0088": {
+        "136": {
+            "unicode_hex": "U+0088",
             "abbreviation": ["HTS"],
             "sequence": "\u001bH",
             "name": [
@@ -296,35 +339,40 @@
                 "HORIZONTAL TABULATION SET"
             ]
         },
-        "U+0089": {
+        "137": {
+            "unicode_hex": "U+0089",
             "abbreviation": ["HTJ"],
             "name": [
                 "CHARACTER TABULATION WITH JUSTIFICATION",
                 "HORIZONTAL TABULATION WITH JUSTIFICATION"
             ]
         },
-        "U+008A": {
+        "138": {
+            "unicode_hex": "U+008A",
             "abbreviation": ["VTS"],
             "name": [
                 "LINE TABULATION SET",
                 "VERTICAL TABULATION SET"
             ]
         },
-        "U+008B": {
+        "139": {
+            "unicode_hex": "U+008B",
             "abbreviation": ["PLD"],
             "name": [
                 "PARTIAL LINE FORWARD",
                 "PARTIAL LINE DOWN"
             ]
         },
-        "U+008C": {
+        "140": {
+            "unicode_hex": "U+008C",
             "abbreviation": ["PLU"],
             "name": [
                 "PARTIAL LINE BACKWARD",
                 "PARTIAL LINE UP"
             ]
         },
-        "U+008D": {
+        "141": {
+            "unicode_hex": "U+008D",
             "abbreviation": ["RI"],
             "sequence": "\u001bM",
             "name": [
@@ -332,7 +380,8 @@
                 "REVERSE INDEX"
             ]
         },
-        "U+008E": {
+        "142": {
+            "unicode_hex": "U+008E",
             "abbreviation": ["SS2"],
             "sequence": "\u001bN",
             "name": [
@@ -340,7 +389,8 @@
                 "SINGLE-SHIFT-2"
             ]
         },
-        "U+008F": {
+        "143": {
+            "unicode_hex": "U+008F",
             "abbreviation": ["SS3"],
             "sequence": "\u001bO",
             "name": [
@@ -348,46 +398,53 @@
                 "SINGLE-SHIFT-3"
             ]
         },
-        "U+0090": {
+        "144": {
+            "unicode_hex": "U+0090",
             "abbreviation": ["DCS"],
             "sequence": "\u001bP",
             "name": [
                 "DEVICE CONTROL STRING"
             ]
         },
-        "U+0091": {
+        "145": {
+            "unicode_hex": "U+0091",
             "abbreviation": ["PU1"],
             "name": [
                 "PRIVATE USE ONE",
                 "PRIVATE USE-1"
             ]
         },
-        "U+0092": {
+        "146": {
+            "unicode_hex": "U+0092",
             "abbreviation": ["PU2"],
             "name": [
                 "PRIVATE USE TWO",
                 "PRIVATE USE-2"
             ]
         },
-        "U+0093": {
+        "147": {
+            "unicode_hex": "U+0093",
             "abbreviation": ["STS"],
             "name": [
                 "SET TRANSMIT STATE"
             ]
         },
-        "U+0094": {
+        "148": {
+            "unicode_hex": "U+0094",
             "abbreviation": ["CCH"],
             "name": [
                 "CANCEL CHARACTER"
             ]
         },
-        "U+0095": {
+        "149": {
+            "unicode_hex": "U+0095",
             "abbreviation": ["MW"],
             "name": [
                 "MESSAGE WAITING"
             ]
         },
-        "U+0096": {
+        "150": {
+            "unicode_hex": "U+0096",
             "abbreviation": ["SPA"],
             "sequence": "\u001bV",
             "name": [
@@ -395,7 +452,8 @@
                 "START OF PROTECTED AREA"
             ]
         },
-        "U+0097": {
+        "151": {
+            "unicode_hex": "U+0097",
             "abbreviation": ["EPA"],
             "sequence": "\u001bW",
             "name": [
@@ -403,14 +461,16 @@
                 "END OF PROTECTED AREA"
             ]
         },
-        "U+0098": {
+        "152": {
+            "unicode_hex": "U+0098",
             "abbreviation": ["SOS"],
             "sequence": "\u001bX",
             "name": [
                 "START OF STRING"
             ]
         },
-        "U+0099": {
+        "153": {
+            "unicode_hex": "U+0099",
             "abbreviation": ["SGC"],
             "name": [
                 "SINGLE GRAPHIC CHARACTER INTRODUCER"
@@ -419,420 +479,1188 @@
                 "obsolete or unofficial"
             ]
         },
-        "U+009A": {
+        "154": {
+            "unicode_hex": "U+009A",
             "abbreviation": ["SCI"],
             "sequence": "\u001bZ",
             "name": [
                 "SINGLE GRAPHIC INTRODUCER"
             ]
         },
-        "U+009B": {
+        "155": {
+            "unicode_hex": "U+009B",
             "abbreviation": ["CSI"],
             "sequence": "\u001b[",
             "name": [
                 "CONTROL SEQUENCE INTRODUCER"
             ]
         },
-        "U+009C": {
+        "156": {
+            "unicode_hex": "U+009C",
             "abbreviation": ["ST"],
             "sequence": "\u001b\\",
             "name": [
                 "STRING TERMINATOR"
             ]
         },
-        "U+009D": {
+        "157": {
+            "unicode_hex": "U+009D",
             "abbreviation": ["OSC"],
             "sequence": "\u001b]",
             "name": [
                 "OPERATING SYSTEM COMMAND"
             ]
         },
-        "U+009E": {
+        "158": {
+            "unicode_hex": "U+009E",
             "abbreviation": ["PM"],
             "sequence": "\u001b^",
             "name": [
                 "PRIVACY MESSAGE"
             ]
         },
-        "U+009F": {
+        "159": {
+            "unicode_hex": "U+009F",
             "abbreviation": ["APC"],
             "sequence": "\u001b_",
             "name": [
                 "APPLICATION PROGRAM COMMAND"
             ]
         },
-        "U+00A0": {
+        "160": {
+            "unicode_hex": "U+00A0",
             "abbreviation": ["NBSP"]
         },
-        "U+00AD": {
+        "173": {
+            "unicode_hex": "U+00AD",
             "abbreviation": ["SHY"]
         },
-        "U+034F": {
+        "847": {
+            "unicode_hex": "U+034F",
             "abbreviation": ["CGJ"]
         },
-        "U+061C": {
+        "1564": {
+            "unicode_hex": "U+061C",
             "abbreviation": ["ALM"]
         },
-        "U+070F": {
+        "1807": {
+            "unicode_hex": "U+070F",
             "abbreviation": ["SAM"],
             "name": [
                 "SYRIAC ABBREVIATION MARK"
             ]
         },
-        "U+180B": {
+        "6155": {
+            "unicode_hex": "U+180B",
             "abbreviation": ["FVS1"]
         },
-        "U+180C": {
+        "6156": {
+            "unicode_hex": "U+180C",
             "abbreviation": ["FVS2"]
         },
-        "U+180D": {
+        "6157": {
+            "unicode_hex": "U+180D",
             "abbreviation": ["FVS3"]
         },
-        "U+200B": {
+        "8203": {
+            "unicode_hex": "U+200B",
             "abbreviation": ["ZWSP"]
         },
-        "U+200C": {
+        "8204": {
+            "unicode_hex": "U+200C",
             "abbreviation": ["ZWNJ"]
         },
-        "U+200D": {
+        "8205": {
+            "unicode_hex": "U+200D",
             "abbreviation": ["ZWJ"]
         },
-        "U+200E": {
+        "8206": {
+            "unicode_hex": "U+200E",
             "abbreviation": ["LRM"]
         },
-        "U+200F": {
+        "8207": {
+            "unicode_hex": "U+200F",
             "abbreviation": ["RLM"]
         },
-        "U+202A": {
+        "8234": {
+            "unicode_hex": "U+202A",
             "abbreviation": ["LRE"]
         },
-        "U+202B": {
+        "8235": {
+            "unicode_hex": "U+202B",
             "abbreviation": ["RLE"]
         },
-        "U+202C": {
+        "8236": {
+            "unicode_hex": "U+202C",
             "abbreviation": ["PDF"]
         },
-        "U+202D": {
+        "8237": {
+            "unicode_hex": "U+202D",
             "abbreviation": ["LRO"]
         },
-        "U+202E": {
+        "8238": {
+            "unicode_hex": "U+202E",
             "abbreviation": ["RLO"]
         },
-        "U+202F": {
+        "8239": {
+            "unicode_hex": "U+202F",
             "abbreviation": ["NNBSP"]
         },
-        "U+205F": {
+        "8287": {
+            "unicode_hex": "U+205F",
             "abbreviation": ["MMSP"]
         },
-        "U+2060": {
+        "8288": {
+            "unicode_hex": "U+2060",
             "abbreviation": ["WJ"]
         },
-        "U+2066": {
+        "8294": {
+            "unicode_hex": "U+2066",
             "abbreviation": ["LRI"]
         },
-        "U+2067": {
+        "8295": {
+            "unicode_hex": "U+2067",
             "abbreviation": ["RLI"]
         },
-        "U+2068": {
+        "8296": {
+            "unicode_hex": "U+2068",
             "abbreviation": ["FSI"]
         },
-        "U+2069": {
+        "8297": {
+            "unicode_hex": "U+2069",
             "abbreviation": ["PDI"]
         },
-        "U+FE00": {
+        "65024": {
+            "unicode_hex": "U+FE00",
             "abbreviation": ["VS1"]
         },
-        "U+FE01": {
+        "65025": {
+            "unicode_hex": "U+FE01",
             "abbreviation": ["VS2"]
         },
-        "U+FE02": {
+        "65026": {
+            "unicode_hex": "U+FE02",
             "abbreviation": ["VS3"]
         },
-        "U+FE03": {
+        "65027": {
+            "unicode_hex": "U+FE03",
             "abbreviation": ["VS4"]
         },
-        "U+FE04": {
+        "65028": {
+            "unicode_hex": "U+FE04",
             "abbreviation": ["VS5"]
         },
-        "U+FE05": {
+        "65029": {
+            "unicode_hex": "U+FE05",
             "abbreviation": ["VS6"]
         },
-        "U+FE06": {
+        "65030": {
+            "unicode_hex": "U+FE06",
             "abbreviation": ["VS7"]
         },
-        "U+FE07": {
+        "65031": {
+            "unicode_hex": "U+FE07",
             "abbreviation": ["VS8"]
         },
-        "U+FE08": {
+        "65032": {
+            "unicode_hex": "U+FE08",
             "abbreviation": ["VS9"]
         },
-        "U+FE09": {
+        "65033": {
+            "unicode_hex": "U+FE09",
             "abbreviation": ["VS10"]
         },
-        "U+FE0A": {
+        "65034": {
+            "unicode_hex": "U+FE0A",
             "abbreviation": ["VS11"]
         },
-        "U+FE0B": {
+        "65035": {
+            "unicode_hex": "U+FE0B",
             "abbreviation": ["VS12"]
         },
-        "U+FE0C": {
+        "65036": {
+            "unicode_hex": "U+FE0C",
             "abbreviation": ["VS13"]
         },
-        "U+FE0D": {
+        "65037": {
+            "unicode_hex": "U+FE0D",
             "abbreviation": ["VS14"]
         },
-        "U+FE0E": {
+        "65038": {
+            "unicode_hex": "U+FE0E",
             "abbreviation": ["VS15"]
         },
-        "U+FE0F": {
+        "65039": {
+            "unicode_hex": "U+FE0F",
             "abbreviation": ["VS16"]
         },
-        "U+FEFF": {
+        "65279": {
+            "unicode_hex": "U+FEFF",
             "abbreviation": ["ZWNBSP", "BOM"],
             "name": [
                 "ZERO WIDTH NO-BREAK SPACE",
                 "BYTE ORDER MARK"
             ]
         },
-        "U+E0100": { "abbreviation": ["VS17"] },
-        "U+E0101": { "abbreviation": ["VS18"] },
-        "U+E0102": { "abbreviation": ["VS19"] },
-        "U+E0103": { "abbreviation": ["VS20"] },
-        "U+E0104": { "abbreviation": ["VS21"] },
-        "U+E0105": { "abbreviation": ["VS22"] },
-        "U+E0106": { "abbreviation": ["VS23"] },
-        "U+E0107": { "abbreviation": ["VS24"] },
-        "U+E0108": { "abbreviation": ["VS25"] },
-        "U+E0109": { "abbreviation": ["VS26"] },
-        "U+E010A": { "abbreviation": ["VS27"] },
-        "U+E010B": { "abbreviation": ["VS28"] },
-        "U+E010C": { "abbreviation": ["VS29"] },
-        "U+E010D": { "abbreviation": ["VS30"] },
-        "U+E010E": { "abbreviation": ["VS31"] },
-        "U+E010F": { "abbreviation": ["VS32"] },
-        "U+E0110": { "abbreviation": ["VS33"] },
-        "U+E0111": { "abbreviation": ["VS34"] },
-        "U+E0112": { "abbreviation": ["VS35"] },
-        "U+E0113": { "abbreviation": ["VS36"] },
-        "U+E0114": { "abbreviation": ["VS37"] },
-        "U+E0115": { "abbreviation": ["VS38"] },
-        "U+E0116": { "abbreviation": ["VS39"] },
-        "U+E0117": { "abbreviation": ["VS40"] },
-        "U+E0118": { "abbreviation": ["VS41"] },
-        "U+E0119": { "abbreviation": ["VS42"] },
-        "U+E011A": { "abbreviation": ["VS43"] },
-        "U+E011B": { "abbreviation": ["VS44"] },
-        "U+E011C": { "abbreviation": ["VS45"] },
-        "U+E011D": { "abbreviation": ["VS46"] },
-        "U+E011E": { "abbreviation": ["VS47"] },
-        "U+E011F": { "abbreviation": ["VS48"] },
-        "U+E0120": { "abbreviation": ["VS49"] },
-        "U+E0121": { "abbreviation": ["VS50"] },
-        "U+E0122": { "abbreviation": ["VS51"] },
-        "U+E0123": { "abbreviation": ["VS52"] },
-        "U+E0124": { "abbreviation": ["VS53"] },
-        "U+E0125": { "abbreviation": ["VS54"] },
-        "U+E0126": { "abbreviation": ["VS55"] },
-        "U+E0127": { "abbreviation": ["VS56"] },
-        "U+E0128": { "abbreviation": ["VS57"] },
-        "U+E0129": { "abbreviation": ["VS58"] },
-        "U+E012A": { "abbreviation": ["VS59"] },
-        "U+E012B": { "abbreviation": ["VS60"] },
-        "U+E012C": { "abbreviation": ["VS61"] },
-        "U+E012D": { "abbreviation": ["VS62"] },
-        "U+E012E": { "abbreviation": ["VS63"] },
-        "U+E012F": { "abbreviation": ["VS64"] },
-        "U+E0130": { "abbreviation": ["VS65"] },
-        "U+E0131": { "abbreviation": ["VS66"] },
-        "U+E0132": { "abbreviation": ["VS67"] },
-        "U+E0133": { "abbreviation": ["VS68"] },
-        "U+E0134": { "abbreviation": ["VS69"] },
-        "U+E0135": { "abbreviation": ["VS70"] },
-        "U+E0136": { "abbreviation": ["VS71"] },
-        "U+E0137": { "abbreviation": ["VS72"] },
-        "U+E0138": { "abbreviation": ["VS73"] },
-        "U+E0139": { "abbreviation": ["VS74"] },
-        "U+E013A": { "abbreviation": ["VS75"] },
-        "U+E013B": { "abbreviation": ["VS76"] },
-        "U+E013C": { "abbreviation": ["VS77"] },
-        "U+E013D": { "abbreviation": ["VS78"] },
-        "U+E013E": { "abbreviation": ["VS79"] },
-        "U+E013F": { "abbreviation": ["VS80"] },
-        "U+E0140": { "abbreviation": ["VS81"] },
-        "U+E0141": { "abbreviation": ["VS82"] },
-        "U+E0142": { "abbreviation": ["VS83"] },
-        "U+E0143": { "abbreviation": ["VS84"] },
-        "U+E0144": { "abbreviation": ["VS85"] },
-        "U+E0145": { "abbreviation": ["VS86"] },
-        "U+E0146": { "abbreviation": ["VS87"] },
-        "U+E0147": { "abbreviation": ["VS88"] },
-        "U+E0148": { "abbreviation": ["VS89"] },
-        "U+E0149": { "abbreviation": ["VS90"] },
-        "U+E014A": { "abbreviation": ["VS91"] },
-        "U+E014B": { "abbreviation": ["VS92"] },
-        "U+E014C": { "abbreviation": ["VS93"] },
-        "U+E014D": { "abbreviation": ["VS94"] },
-        "U+E014E": { "abbreviation": ["VS95"] },
-        "U+E014F": { "abbreviation": ["VS96"] },
-        "U+E0150": { "abbreviation": ["VS97"] },
-        "U+E0151": { "abbreviation": ["VS98"] },
-        "U+E0152": { "abbreviation": ["VS99"] },
-        "U+E0153": { "abbreviation": ["VS100"] },
-        "U+E0154": { "abbreviation": ["VS101"] },
-        "U+E0155": { "abbreviation": ["VS102"] },
-        "U+E0156": { "abbreviation": ["VS103"] },
-        "U+E0157": { "abbreviation": ["VS104"] },
-        "U+E0158": { "abbreviation": ["VS105"] },
-        "U+E0159": { "abbreviation": ["VS106"] },
-        "U+E015A": { "abbreviation": ["VS107"] },
-        "U+E015B": { "abbreviation": ["VS108"] },
-        "U+E015C": { "abbreviation": ["VS109"] },
-        "U+E015D": { "abbreviation": ["VS110"] },
-        "U+E015E": { "abbreviation": ["VS111"] },
-        "U+E015F": { "abbreviation": ["VS112"] },
-        "U+E0160": { "abbreviation": ["VS113"] },
-        "U+E0161": { "abbreviation": ["VS114"] },
-        "U+E0162": { "abbreviation": ["VS115"] },
-        "U+E0163": { "abbreviation": ["VS116"] },
-        "U+E0164": { "abbreviation": ["VS117"] },
-        "U+E0165": { "abbreviation": ["VS118"] },
-        "U+E0166": { "abbreviation": ["VS119"] },
-        "U+E0167": { "abbreviation": ["VS120"] },
-        "U+E0168": { "abbreviation": ["VS121"] },
-        "U+E0169": { "abbreviation": ["VS122"] },
-        "U+E016A": { "abbreviation": ["VS123"] },
-        "U+E016B": { "abbreviation": ["VS124"] },
-        "U+E016C": { "abbreviation": ["VS125"] },
-        "U+E016D": { "abbreviation": ["VS126"] },
-        "U+E016E": { "abbreviation": ["VS127"] },
-        "U+E016F": { "abbreviation": ["VS128"] },
-        "U+E0170": { "abbreviation": ["VS129"] },
-        "U+E0171": { "abbreviation": ["VS130"] },
-        "U+E0172": { "abbreviation": ["VS131"] },
-        "U+E0173": { "abbreviation": ["VS132"] },
-        "U+E0174": { "abbreviation": ["VS133"] },
-        "U+E0175": { "abbreviation": ["VS134"] },
-        "U+E0176": { "abbreviation": ["VS135"] },
-        "U+E0177": { "abbreviation": ["VS136"] },
-        "U+E0178": { "abbreviation": ["VS137"] },
-        "U+E0179": { "abbreviation": ["VS138"] },
-        "U+E017A": { "abbreviation": ["VS139"] },
-        "U+E017B": { "abbreviation": ["VS140"] },
-        "U+E017C": { "abbreviation": ["VS141"] },
-        "U+E017D": { "abbreviation": ["VS142"] },
-        "U+E017E": { "abbreviation": ["VS143"] },
-        "U+E017F": { "abbreviation": ["VS144"] },
-        "U+E0180": { "abbreviation": ["VS145"] },
-        "U+E0181": { "abbreviation": ["VS146"] },
-        "U+E0182": { "abbreviation": ["VS147"] },
-        "U+E0183": { "abbreviation": ["VS148"] },
-        "U+E0184": { "abbreviation": ["VS149"] },
-        "U+E0185": { "abbreviation": ["VS150"] },
-        "U+E0186": { "abbreviation": ["VS151"] },
-        "U+E0187": { "abbreviation": ["VS152"] },
-        "U+E0188": { "abbreviation": ["VS153"] },
-        "U+E0189": { "abbreviation": ["VS154"] },
-        "U+E018A": { "abbreviation": ["VS155"] },
-        "U+E018B": { "abbreviation": ["VS156"] },
-        "U+E018C": { "abbreviation": ["VS157"] },
-        "U+E018D": { "abbreviation": ["VS158"] },
-        "U+E018E": { "abbreviation": ["VS159"] },
-        "U+E018F": { "abbreviation": ["VS160"] },
-        "U+E0190": { "abbreviation": ["VS161"] },
-        "U+E0191": { "abbreviation": ["VS162"] },
-        "U+E0192": { "abbreviation": ["VS163"] },
-        "U+E0193": { "abbreviation": ["VS164"] },
-        "U+E0194": { "abbreviation": ["VS165"] },
-        "U+E0195": { "abbreviation": ["VS166"] },
-        "U+E0196": { "abbreviation": ["VS167"] },
-        "U+E0197": { "abbreviation": ["VS168"] },
-        "U+E0198": { "abbreviation": ["VS169"] },
-        "U+E0199": { "abbreviation": ["VS170"] },
-        "U+E019A": { "abbreviation": ["VS171"] },
-        "U+E019B": { "abbreviation": ["VS172"] },
-        "U+E019C": { "abbreviation": ["VS173"] },
-        "U+E019D": { "abbreviation": ["VS174"] },
-        "U+E019E": { "abbreviation": ["VS175"] },
-        "U+E019F": { "abbreviation": ["VS176"] },
-        "U+E01A0": { "abbreviation": ["VS177"] },
-        "U+E01A1": { "abbreviation": ["VS178"] },
-        "U+E01A2": { "abbreviation": ["VS179"] },
-        "U+E01A3": { "abbreviation": ["VS180"] },
-        "U+E01A4": { "abbreviation": ["VS181"] },
-        "U+E01A5": { "abbreviation": ["VS182"] },
-        "U+E01A6": { "abbreviation": ["VS183"] },
-        "U+E01A7": { "abbreviation": ["VS184"] },
-        "U+E01A8": { "abbreviation": ["VS185"] },
-        "U+E01A9": { "abbreviation": ["VS186"] },
-        "U+E01AA": { "abbreviation": ["VS187"] },
-        "U+E01AB": { "abbreviation": ["VS188"] },
-        "U+E01AC": { "abbreviation": ["VS189"] },
-        "U+E01AD": { "abbreviation": ["VS190"] },
-        "U+E01AE": { "abbreviation": ["VS191"] },
-        "U+E01AF": { "abbreviation": ["VS192"] },
-        "U+E01B0": { "abbreviation": ["VS193"] },
-        "U+E01B1": { "abbreviation": ["VS194"] },
-        "U+E01B2": { "abbreviation": ["VS195"] },
-        "U+E01B3": { "abbreviation": ["VS196"] },
-        "U+E01B4": { "abbreviation": ["VS197"] },
-        "U+E01B5": { "abbreviation": ["VS198"] },
-        "U+E01B6": { "abbreviation": ["VS199"] },
-        "U+E01B7": { "abbreviation": ["VS200"] },
-        "U+E01B8": { "abbreviation": ["VS201"] },
-        "U+E01B9": { "abbreviation": ["VS202"] },
-        "U+E01BA": { "abbreviation": ["VS203"] },
-        "U+E01BB": { "abbreviation": ["VS204"] },
-        "U+E01BC": { "abbreviation": ["VS205"] },
-        "U+E01BD": { "abbreviation": ["VS206"] },
-        "U+E01BE": { "abbreviation": ["VS207"] },
-        "U+E01BF": { "abbreviation": ["VS208"] },
-        "U+E01C0": { "abbreviation": ["VS209"] },
-        "U+E01C1": { "abbreviation": ["VS210"] },
-        "U+E01C2": { "abbreviation": ["VS211"] },
-        "U+E01C3": { "abbreviation": ["VS212"] },
-        "U+E01C4": { "abbreviation": ["VS213"] },
-        "U+E01C5": { "abbreviation": ["VS214"] },
-        "U+E01C6": { "abbreviation": ["VS215"] },
-        "U+E01C7": { "abbreviation": ["VS216"] },
-        "U+E01C8": { "abbreviation": ["VS217"] },
-        "U+E01C9": { "abbreviation": ["VS218"] },
-        "U+E01CA": { "abbreviation": ["VS219"] },
-        "U+E01CB": { "abbreviation": ["VS220"] },
-        "U+E01CC": { "abbreviation": ["VS221"] },
-        "U+E01CD": { "abbreviation": ["VS222"] },
-        "U+E01CE": { "abbreviation": ["VS223"] },
-        "U+E01CF": { "abbreviation": ["VS224"] },
-        "U+E01D0": { "abbreviation": ["VS225"] },
-        "U+E01D1": { "abbreviation": ["VS226"] },
-        "U+E01D2": { "abbreviation": ["VS227"] },
-        "U+E01D3": { "abbreviation": ["VS228"] },
-        "U+E01D4": { "abbreviation": ["VS229"] },
-        "U+E01D5": { "abbreviation": ["VS230"] },
-        "U+E01D6": { "abbreviation": ["VS231"] },
-        "U+E01D7": { "abbreviation": ["VS232"] },
-        "U+E01D8": { "abbreviation": ["VS233"] },
-        "U+E01D9": { "abbreviation": ["VS234"] },
-        "U+E01DA": { "abbreviation": ["VS235"] },
-        "U+E01DB": { "abbreviation": ["VS236"] },
-        "U+E01DC": { "abbreviation": ["VS237"] },
-        "U+E01DD": { "abbreviation": ["VS238"] },
-        "U+E01DE": { "abbreviation": ["VS239"] },
-        "U+E01DF": { "abbreviation": ["VS240"] },
-        "U+E01E0": { "abbreviation": ["VS241"] },
-        "U+E01E1": { "abbreviation": ["VS242"] },
-        "U+E01E2": { "abbreviation": ["VS243"] },
-        "U+E01E3": { "abbreviation": ["VS244"] },
-        "U+E01E4": { "abbreviation": ["VS245"] },
-        "U+E01E5": { "abbreviation": ["VS246"] },
-        "U+E01E6": { "abbreviation": ["VS247"] },
-        "U+E01E7": { "abbreviation": ["VS248"] },
-        "U+E01E8": { "abbreviation": ["VS249"] },
-        "U+E01E9": { "abbreviation": ["VS250"] },
-        "U+E01EA": { "abbreviation": ["VS251"] },
-        "U+E01EB": { "abbreviation": ["VS252"] },
-        "U+E01EC": { "abbreviation": ["VS253"] },
-        "U+E01ED": { "abbreviation": ["VS254"] },
-        "U+E01EE": { "abbreviation": ["VS255"] },
-        "U+E01EF": { "abbreviation": ["VS256"] }
+        "917760": {
+            "unicode_hex": "U+E0100",
+            "abbreviation": ["VS17"]
+        },
+        "917761": {
+            "unicode_hex": "U+E0101",
+            "abbreviation": ["VS18"]
+        },
+        "917762": {
+            "unicode_hex": "U+E0102",
+            "abbreviation": ["VS19"]
+        },
+        "917763": {
+            "unicode_hex": "U+E0103",
+            "abbreviation": ["VS20"]
+        },
+        "917764": {
+            "unicode_hex": "U+E0104",
+            "abbreviation": ["VS21"]
+        },
+        "917765": {
+            "unicode_hex": "U+E0105",
+            "abbreviation": ["VS22"]
+        },
+        "917766": {
+            "unicode_hex": "U+E0106",
+            "abbreviation": ["VS23"]
+        },
+        "917767": {
+            "unicode_hex": "U+E0107",
+            "abbreviation": ["VS24"]
+        },
+        "917768": {
+            "unicode_hex": "U+E0108",
+            "abbreviation": ["VS25"]
+        },
+        "917769": {
+            "unicode_hex": "U+E0109",
+            "abbreviation": ["VS26"]
+        },
+        "917770": {
+            "unicode_hex": "U+E010A",
+            "abbreviation": ["VS27"]
+        },
+        "917771": {
+            "unicode_hex": "U+E010B",
+            "abbreviation": ["VS28"]
+        },
+        "917772": {
+            "unicode_hex": "U+E010C",
+            "abbreviation": ["VS29"]
+        },
+        "917773": {
+            "unicode_hex": "U+E010D",
+            "abbreviation": ["VS30"]
+        },
+        "917774": {
+            "unicode_hex": "U+E010E",
+            "abbreviation": ["VS31"]
+        },
+        "917775": {
+            "unicode_hex": "U+E010F",
+            "abbreviation": ["VS32"]
+        },
+        "917776": {
+            "unicode_hex": "U+E0110",
+            "abbreviation": ["VS33"]
+        },
+        "917777": {
+            "unicode_hex": "U+E0111",
+            "abbreviation": ["VS34"]
+        },
+        "917778": {
+            "unicode_hex": "U+E0112",
+            "abbreviation": ["VS35"]
+        },
+        "917779": {
+            "unicode_hex": "U+E0113",
+            "abbreviation": ["VS36"]
+        },
+        "917780": {
+            "unicode_hex": "U+E0114",
+            "abbreviation": ["VS37"]
+        },
+        "917781": {
+            "unicode_hex": "U+E0115",
+            "abbreviation": ["VS38"]
+        },
+        "917782": {
+            "unicode_hex": "U+E0116",
+            "abbreviation": ["VS39"]
+        },
+        "917783": {
+            "unicode_hex": "U+E0117",
+            "abbreviation": ["VS40"]
+        },
+        "917784": {
+            "unicode_hex": "U+E0118",
+            "abbreviation": ["VS41"]
+        },
+        "917785": {
+            "unicode_hex": "U+E0119",
+            "abbreviation": ["VS42"]
+        },
+        "917786": {
+            "unicode_hex": "U+E011A",
+            "abbreviation": ["VS43"]
+        },
+        "917787": {
+            "unicode_hex": "U+E011B",
+            "abbreviation": ["VS44"]
+        },
+        "917788": {
+            "unicode_hex": "U+E011C",
+            "abbreviation": ["VS45"]
+        },
+        "917789": {
+            "unicode_hex": "U+E011D",
+            "abbreviation": ["VS46"]
+        },
+        "917790": {
+            "unicode_hex": "U+E011E",
+            "abbreviation": ["VS47"]
+        },
+        "917791": {
+            "unicode_hex": "U+E011F",
+            "abbreviation": ["VS48"]
+        },
+        "917792": {
+            "unicode_hex": "U+E0120",
+            "abbreviation": ["VS49"]
+        },
+        "917793": {
+            "unicode_hex": "U+E0121",
+            "abbreviation": ["VS50"]
+        },
+        "917794": {
+            "unicode_hex": "U+E0122",
+            "abbreviation": ["VS51"]
+        },
+        "917795": {
+            "unicode_hex": "U+E0123",
+            "abbreviation": ["VS52"]
+        },
+        "917796": {
+            "unicode_hex": "U+E0124",
+            "abbreviation": ["VS53"]
+        },
+        "917797": {
+            "unicode_hex": "U+E0125",
+            "abbreviation": ["VS54"]
+        },
+        "917798": {
+            "unicode_hex": "U+E0126",
+            "abbreviation": ["VS55"]
+        },
+        "917799": {
+            "unicode_hex": "U+E0127",
+            "abbreviation": ["VS56"]
+        },
+        "917800": {
+            "unicode_hex": "U+E0128",
+            "abbreviation": ["VS57"]
+        },
+        "917801": {
+            "unicode_hex": "U+E0129",
+            "abbreviation": ["VS58"]
+        },
+        "917802": {
+            "unicode_hex": "U+E012A",
+            "abbreviation": ["VS59"]
+        },
+        "917803": {
+            "unicode_hex": "U+E012B",
+            "abbreviation": ["VS60"]
+        },
+        "917804": {
+            "unicode_hex": "U+E012C",
+            "abbreviation": ["VS61"]
+        },
+        "917805": {
+            "unicode_hex": "U+E012D",
+            "abbreviation": ["VS62"]
+        },
+        "917806": {
+            "unicode_hex": "U+E012E",
+            "abbreviation": ["VS63"]
+        },
+        "917807": {
+            "unicode_hex": "U+E012F",
+            "abbreviation": ["VS64"]
+        },
+        "917808": {
+            "unicode_hex": "U+E0130",
+            "abbreviation": ["VS65"]
+        },
+        "917809": {
+            "unicode_hex": "U+E0131",
+            "abbreviation": ["VS66"]
+        },
+        "917810": {
+            "unicode_hex": "U+E0132",
+            "abbreviation": ["VS67"]
+        },
+        "917811": {
+            "unicode_hex": "U+E0133",
+            "abbreviation": ["VS68"]
+        },
+        "917812": {
+            "unicode_hex": "U+E0134",
+            "abbreviation": ["VS69"]
+        },
+        "917813": {
+            "unicode_hex": "U+E0135",
+            "abbreviation": ["VS70"]
+        },
+        "917814": {
+            "unicode_hex": "U+E0136",
+            "abbreviation": ["VS71"]
+        },
+        "917815": {
+            "unicode_hex": "U+E0137",
+            "abbreviation": ["VS72"]
+        },
+        "917816": {
+            "unicode_hex": "U+E0138",
+            "abbreviation": ["VS73"]
+        },
+        "917817": {
+            "unicode_hex": "U+E0139",
+            "abbreviation": ["VS74"]
+        },
+        "917818": {
+            "unicode_hex": "U+E013A",
+            "abbreviation": ["VS75"]
+        },
+        "917819": {
+            "unicode_hex": "U+E013B",
+            "abbreviation": ["VS76"]
+        },
+        "917820": {
+            "unicode_hex": "U+E013C",
+            "abbreviation": ["VS77"]
+        },
+        "917821": {
+            "unicode_hex": "U+E013D",
+            "abbreviation": ["VS78"]
+        },
+        "917822": {
+            "unicode_hex": "U+E013E",
+            "abbreviation": ["VS79"]
+        },
+        "917823": {
+            "unicode_hex": "U+E013F",
+            "abbreviation": ["VS80"]
+        },
+        "917824": {
+            "unicode_hex": "U+E0140",
+            "abbreviation": ["VS81"]
+        },
+        "917825": {
+            "unicode_hex": "U+E0141",
+            "abbreviation": ["VS82"]
+        },
+        "917826": {
+            "unicode_hex": "U+E0142",
+            "abbreviation": ["VS83"]
+        },
+        "917827": {
+            "unicode_hex": "U+E0143",
+            "abbreviation": ["VS84"]
+        },
+        "917828": {
+            "unicode_hex": "U+E0144",
+            "abbreviation": ["VS85"]
+        },
+        "917829": {
+            "unicode_hex": "U+E0145",
+            "abbreviation": ["VS86"]
+        },
+        "917830": {
+            "unicode_hex": "U+E0146",
+            "abbreviation": ["VS87"]
+        },
+        "917831": {
+            "unicode_hex": "U+E0147",
+            "abbreviation": ["VS88"]
+        },
+        "917832": {
+            "unicode_hex": "U+E0148",
+            "abbreviation": ["VS89"]
+        },
+        "917833": {
+            "unicode_hex": "U+E0149",
+            "abbreviation": ["VS90"]
+        },
+        "917834": {
+            "unicode_hex": "U+E014A",
+            "abbreviation": ["VS91"]
+        },
+        "917835": {
+            "unicode_hex": "U+E014B",
+            "abbreviation": ["VS92"]
+        },
+        "917836": {
+            "unicode_hex": "U+E014C",
+            "abbreviation": ["VS93"]
+        },
+        "917837": {
+            "unicode_hex": "U+E014D",
+            "abbreviation": ["VS94"]
+        },
+        "917838": {
+            "unicode_hex": "U+E014E",
+            "abbreviation": ["VS95"]
+        },
+        "917839": {
+            "unicode_hex": "U+E014F",
+            "abbreviation": ["VS96"]
+        },
+        "917840": {
+            "unicode_hex": "U+E0150",
+            "abbreviation": ["VS97"]
+        },
+        "917841": {
+            "unicode_hex": "U+E0151",
+            "abbreviation": ["VS98"]
+        },
+        "917842": {
+            "unicode_hex": "U+E0152",
+            "abbreviation": ["VS99"]
+        },
+        "917843": {
+            "unicode_hex": "U+E0153",
+            "abbreviation": ["VS100"]
+        },
+        "917844": {
+            "unicode_hex": "U+E0154",
+            "abbreviation": ["VS101"]
+        },
+        "917845": {
+            "unicode_hex": "U+E0155",
+            "abbreviation": ["VS102"]
+        },
+        "917846": {
+            "unicode_hex": "U+E0156",
+            "abbreviation": ["VS103"]
+        },
+        "917847": {
+            "unicode_hex": "U+E0157",
+            "abbreviation": ["VS104"]
+        },
+        "917848": {
+            "unicode_hex": "U+E0158",
+            "abbreviation": ["VS105"]
+        },
+        "917849": {
+            "unicode_hex": "U+E0159",
+            "abbreviation": ["VS106"]
+        },
+        "917850": {
+            "unicode_hex": "U+E015A",
+            "abbreviation": ["VS107"]
+        },
+        "917851": {
+            "unicode_hex": "U+E015B",
+            "abbreviation": ["VS108"]
+        },
+        "917852": {
+            "unicode_hex": "U+E015C",
+            "abbreviation": ["VS109"]
+        },
+        "917853": {
+            "unicode_hex": "U+E015D",
+            "abbreviation": ["VS110"]
+        },
+        "917854": {
+            "unicode_hex": "U+E015E",
+            "abbreviation": ["VS111"]
+        },
+        "917855": {
+            "unicode_hex": "U+E015F",
+            "abbreviation": ["VS112"]
+        },
+        "917856": {
+            "unicode_hex": "U+E0160",
+            "abbreviation": ["VS113"]
+        },
+        "917857": {
+            "unicode_hex": "U+E0161",
+            "abbreviation": ["VS114"]
+        },
+        "917858": {
+            "unicode_hex": "U+E0162",
+            "abbreviation": ["VS115"]
+        },
+        "917859": {
+            "unicode_hex": "U+E0163",
+            "abbreviation": ["VS116"]
+        },
+        "917860": {
+            "unicode_hex": "U+E0164",
+            "abbreviation": ["VS117"]
+        },
+        "917861": {
+            "unicode_hex": "U+E0165",
+            "abbreviation": ["VS118"]
+        },
+        "917862": {
+            "unicode_hex": "U+E0166",
+            "abbreviation": ["VS119"]
+        },
+        "917863": {
+            "unicode_hex": "U+E0167",
+            "abbreviation": ["VS120"]
+        },
+        "917864": {
+            "unicode_hex": "U+E0168",
+            "abbreviation": ["VS121"]
+        },
+        "917865": {
+            "unicode_hex": "U+E0169",
+            "abbreviation": ["VS122"]
+        },
+        "917866": {
+            "unicode_hex": "U+E016A",
+            "abbreviation": ["VS123"]
+        },
+        "917867": {
+            "unicode_hex": "U+E016B",
+            "abbreviation": ["VS124"]
+        },
+        "917868": {
+            "unicode_hex": "U+E016C",
+            "abbreviation": ["VS125"]
+        },
+        "917869": {
+            "unicode_hex": "U+E016D",
+            "abbreviation": ["VS126"]
+        },
+        "917870": {
+            "unicode_hex": "U+E016E",
+            "abbreviation": ["VS127"]
+        },
+        "917871": {
+            "unicode_hex": "U+E016F",
+            "abbreviation": ["VS128"]
+        },
+        "917872": {
+            "unicode_hex": "U+E0170",
+            "abbreviation": ["VS129"]
+        },
+        "917873": {
+            "unicode_hex": "U+E0171",
+            "abbreviation": ["VS130"]
+        },
+        "917874": {
+            "unicode_hex": "U+E0172",
+            "abbreviation": ["VS131"]
+        },
+        "917875": {
+            "unicode_hex": "U+E0173",
+            "abbreviation": ["VS132"]
+        },
+        "917876": {
+            "unicode_hex": "U+E0174",
+            "abbreviation": ["VS133"]
+        },
+        "917877": {
+            "unicode_hex": "U+E0175",
+            "abbreviation": ["VS134"]
+        },
+        "917878": {
+            "unicode_hex": "U+E0176",
+            "abbreviation": ["VS135"]
+        },
+        "917879": {
+            "unicode_hex": "U+E0177",
+            "abbreviation": ["VS136"]
+        },
+        "917880": {
+            "unicode_hex": "U+E0178",
+            "abbreviation": ["VS137"]
+        },
+        "917881": {
+            "unicode_hex": "U+E0179",
+            "abbreviation": ["VS138"]
+        },
+        "917882": {
+            "unicode_hex": "U+E017A",
+            "abbreviation": ["VS139"]
+        },
+        "917883": {
+            "unicode_hex": "U+E017B",
+            "abbreviation": ["VS140"]
+        },
+        "917884": {
+            "unicode_hex": "U+E017C",
+            "abbreviation": ["VS141"]
+        },
+        "917885": {
+            "unicode_hex": "U+E017D",
+            "abbreviation": ["VS142"]
+        },
+        "917886": {
+            "unicode_hex": "U+E017E",
+            "abbreviation": ["VS143"]
+        },
+        "917887": {
+            "unicode_hex": "U+E017F",
+            "abbreviation": ["VS144"]
+        },
+        "917888": {
+            "unicode_hex": "U+E0180",
+            "abbreviation": ["VS145"]
+        },
+        "917889": {
+            "unicode_hex": "U+E0181",
+            "abbreviation": ["VS146"]
+        },
+        "917890": {
+            "unicode_hex": "U+E0182",
+            "abbreviation": ["VS147"]
+        },
+        "917891": {
+            "unicode_hex": "U+E0183",
+            "abbreviation": ["VS148"]
+        },
+        "917892": {
+            "unicode_hex": "U+E0184",
+            "abbreviation": ["VS149"]
+        },
+        "917893": {
+            "unicode_hex": "U+E0185",
+            "abbreviation": ["VS150"]
+        },
+        "917894": {
+            "unicode_hex": "U+E0186",
+            "abbreviation": ["VS151"]
+        },
+        "917895": {
+            "unicode_hex": "U+E0187",
+            "abbreviation": ["VS152"]
+        },
+        "917896": {
+            "unicode_hex": "U+E0188",
+            "abbreviation": ["VS153"]
+        },
+        "917897": {
+            "unicode_hex": "U+E0189",
+            "abbreviation": ["VS154"]
+        },
+        "917898": {
+            "unicode_hex": "U+E018A",
+            "abbreviation": ["VS155"]
+        },
+        "917899": {
+            "unicode_hex": "U+E018B",
+            "abbreviation": ["VS156"]
+        },
+        "917900": {
+            "unicode_hex": "U+E018C",
+            "abbreviation": ["VS157"]
+        },
+        "917901": {
+            "unicode_hex": "U+E018D",
+            "abbreviation": ["VS158"]
+        },
+        "917902": {
+            "unicode_hex": "U+E018E",
+            "abbreviation": ["VS159"]
+        },
+        "917903": {
+            "unicode_hex": "U+E018F",
+            "abbreviation": ["VS160"]
+        },
+        "917904": {
+            "unicode_hex": "U+E0190",
+            "abbreviation": ["VS161"]
+        },
+        "917905": {
+            "unicode_hex": "U+E0191",
+            "abbreviation": ["VS162"]
+        },
+        "917906": {
+            "unicode_hex": "U+E0192",
+            "abbreviation": ["VS163"]
+        },
+        "917907": {
+            "unicode_hex": "U+E0193",
+            "abbreviation": ["VS164"]
+        },
+        "917908": {
+            "unicode_hex": "U+E0194",
+            "abbreviation": ["VS165"]
+        },
+        "917909": {
+            "unicode_hex": "U+E0195",
+            "abbreviation": ["VS166"]
+        },
+        "917910": {
+            "unicode_hex": "U+E0196",
+            "abbreviation": ["VS167"]
+        },
+        "917911": {
+            "unicode_hex": "U+E0197",
+            "abbreviation": ["VS168"]
+        },
+        "917912": {
+            "unicode_hex": "U+E0198",
+            "abbreviation": ["VS169"]
+        },
+        "917913": {
+            "unicode_hex": "U+E0199",
+            "abbreviation": ["VS170"]
+        },
+        "917914": {
+            "unicode_hex": "U+E019A",
+            "abbreviation": ["VS171"]
+        },
+        "917915": {
+            "unicode_hex": "U+E019B",
+            "abbreviation": ["VS172"]
+        },
+        "917916": {
+            "unicode_hex": "U+E019C",
+            "abbreviation": ["VS173"]
+        },
+        "917917": {
+            "unicode_hex": "U+E019D",
+            "abbreviation": ["VS174"]
+        },
+        "917918": {
+            "unicode_hex": "U+E019E",
+            "abbreviation": ["VS175"]
+        },
+        "917919": {
+            "unicode_hex": "U+E019F",
+            "abbreviation": ["VS176"]
+        },
+        "917920": {
+            "unicode_hex": "U+E01A0",
+            "abbreviation": ["VS177"]
+        },
+        "917921": {
+            "unicode_hex": "U+E01A1",
+            "abbreviation": ["VS178"]
+        },
+        "917922": {
+            "unicode_hex": "U+E01A2",
+            "abbreviation": ["VS179"]
+        },
+        "917923": {
+            "unicode_hex": "U+E01A3",
+            "abbreviation": ["VS180"]
+        },
+        "917924": {
+            "unicode_hex": "U+E01A4",
+            "abbreviation": ["VS181"]
+        },
+        "917925": {
+            "unicode_hex": "U+E01A5",
+            "abbreviation": ["VS182"]
+        },
+        "917926": {
+            "unicode_hex": "U+E01A6",
+            "abbreviation": ["VS183"]
+        },
+        "917927": {
+            "unicode_hex": "U+E01A7",
+            "abbreviation": ["VS184"]
+        },
+        "917928": {
+            "unicode_hex": "U+E01A8",
+            "abbreviation": ["VS185"]
+        },
+        "917929": {
+            "unicode_hex": "U+E01A9",
+            "abbreviation": ["VS186"]
+        },
+        "917930": {
+            "unicode_hex": "U+E01AA",
+            "abbreviation": ["VS187"]
+        },
+        "917931": {
+            "unicode_hex": "U+E01AB",
+            "abbreviation": ["VS188"]
+        },
+        "917932": {
+            "unicode_hex": "U+E01AC",
+            "abbreviation": ["VS189"]
+        },
+        "917933": {
+            "unicode_hex": "U+E01AD",
+            "abbreviation": ["VS190"]
+        },
+        "917934": {
+            "unicode_hex": "U+E01AE",
+            "abbreviation": ["VS191"]
+        },
+        "917935": {
+            "unicode_hex": "U+E01AF",
+            "abbreviation": ["VS192"]
+        },
+        "917936": {
+            "unicode_hex": "U+E01B0",
+            "abbreviation": ["VS193"]
+        },
+        "917937": {
+            "unicode_hex": "U+E01B1",
+            "abbreviation": ["VS194"]
+        },
+        "917938": {
+            "unicode_hex": "U+E01B2",
+            "abbreviation": ["VS195"]
+        },
+        "917939": {
+            "unicode_hex": "U+E01B3",
+            "abbreviation": ["VS196"]
+        },
+        "917940": {
+            "unicode_hex": "U+E01B4",
+            "abbreviation": ["VS197"]
+        },
+        "917941": {
+            "unicode_hex": "U+E01B5",
+            "abbreviation": ["VS198"]
+        },
+        "917942": {
+            "unicode_hex": "U+E01B6",
+            "abbreviation": ["VS199"]
+        },
+        "917943": {
+            "unicode_hex": "U+E01B7",
+            "abbreviation": ["VS200"]
+        },
+        "917944": {
+            "unicode_hex": "U+E01B8",
+            "abbreviation": ["VS201"]
+        },
+        "917945": {
+            "unicode_hex": "U+E01B9",
+            "abbreviation": ["VS202"]
+        },
+        "917946": {
+            "unicode_hex": "U+E01BA",
+            "abbreviation": ["VS203"]
+        },
+        "917947": {
+            "unicode_hex": "U+E01BB",
+            "abbreviation": ["VS204"]
+        },
+        "917948": {
+            "unicode_hex": "U+E01BC",
+            "abbreviation": ["VS205"]
+        },
+        "917949": {
+            "unicode_hex": "U+E01BD",
+            "abbreviation": ["VS206"]
+        },
+        "917950": {
+            "unicode_hex": "U+E01BE",
+            "abbreviation": ["VS207"]
+        },
+        "917951": {
+            "unicode_hex": "U+E01BF",
+            "abbreviation": ["VS208"]
+        },
+        "917952": {
+            "unicode_hex": "U+E01C0",
+            "abbreviation": ["VS209"]
+        },
+        "917953": {
+            "unicode_hex": "U+E01C1",
+            "abbreviation": ["VS210"]
+        },
+        "917954": {
+            "unicode_hex": "U+E01C2",
+            "abbreviation": ["VS211"]
+        },
+        "917955": {
+            "unicode_hex": "U+E01C3",
+            "abbreviation": ["VS212"]
+        },
+        "917956": {
+            "unicode_hex": "U+E01C4",
+            "abbreviation": ["VS213"]
+        },
+        "917957": {
+            "unicode_hex": "U+E01C5",
+            "abbreviation": ["VS214"]
+        },
+        "917958": {
+            "unicode_hex": "U+E01C6",
+            "abbreviation": ["VS215"]
+        },
+        "917959": {
+            "unicode_hex": "U+E01C7",
+            "abbreviation": ["VS216"]
+        },
+        "917960": {
+            "unicode_hex": "U+E01C8",
+            "abbreviation": ["VS217"]
+        },
+        "917961": {
+            "unicode_hex": "U+E01C9",
+            "abbreviation": ["VS218"]
+        },
+        "917962": {
+            "unicode_hex": "U+E01CA",
+            "abbreviation": ["VS219"]
+        },
+        "917963": {
+            "unicode_hex": "U+E01CB",
+            "abbreviation": ["VS220"]
+        },
+        "917964": {
+            "unicode_hex": "U+E01CC",
+            "abbreviation": ["VS221"]
+        },
+        "917965": {
+            "unicode_hex": "U+E01CD",
+            "abbreviation": ["VS222"]
+        },
+        "917966": {
+            "unicode_hex": "U+E01CE",
+            "abbreviation": ["VS223"]
+        },
+        "917967": {
+            "unicode_hex": "U+E01CF",
+            "abbreviation": ["VS224"]
+        },
+        "917968": {
+            "unicode_hex": "U+E01D0",
+            "abbreviation": ["VS225"]
+        },
+        "917969": {
+            "unicode_hex": "U+E01D1",
+            "abbreviation": ["VS226"]
+        },
+        "917970": {
+            "unicode_hex": "U+E01D2",
+            "abbreviation": ["VS227"]
+        },
+        "917971": {
+            "unicode_hex": "U+E01D3",
+            "abbreviation": ["VS228"]
+        },
+        "917972": {
+            "unicode_hex": "U+E01D4",
+            "abbreviation": ["VS229"]
+        },
+        "917973": {
+            "unicode_hex": "U+E01D5",
+            "abbreviation": ["VS230"]
+        },
+        "917974": {
+            "unicode_hex": "U+E01D6",
+            "abbreviation": ["VS231"]
+        },
+        "917975": {
+            "unicode_hex": "U+E01D7",
+            "abbreviation": ["VS232"]
+        },
+        "917976": {
+            "unicode_hex": "U+E01D8",
+            "abbreviation": ["VS233"]
+        },
+        "917977": {
+            "unicode_hex": "U+E01D9",
+            "abbreviation": ["VS234"]
+        },
+        "917978": {
+            "unicode_hex": "U+E01DA",
+            "abbreviation": ["VS235"]
+        },
+        "917979": {
+            "unicode_hex": "U+E01DB",
+            "abbreviation": ["VS236"]
+        },
+        "917980": {
+            "unicode_hex": "U+E01DC",
+            "abbreviation": ["VS237"]
+        },
+        "917981": {
+            "unicode_hex": "U+E01DD",
+            "abbreviation": ["VS238"]
+        },
+        "917982": {
+            "unicode_hex": "U+E01DE",
+            "abbreviation": ["VS239"]
+        },
+        "917983": {
+            "unicode_hex": "U+E01DF",
+            "abbreviation": ["VS240"]
+        },
+        "917984": {
+            "unicode_hex": "U+E01E0",
+            "abbreviation": ["VS241"]
+        },
+        "917985": {
+            "unicode_hex": "U+E01E1",
+            "abbreviation": ["VS242"]
+        },
+        "917986": {
+            "unicode_hex": "U+E01E2",
+            "abbreviation": ["VS243"]
+        },
+        "917987": {
+            "unicode_hex": "U+E01E3",
+            "abbreviation": ["VS244"]
+        },
+        "917988": {
+            "unicode_hex": "U+E01E4",
+            "abbreviation": ["VS245"]
+        },
+        "917989": {
+            "unicode_hex": "U+E01E5",
+            "abbreviation": ["VS246"]
+        },
+        "917990": {
+            "unicode_hex": "U+E01E6",
+            "abbreviation": ["VS247"]
+        },
+        "917991": {
+            "unicode_hex": "U+E01E7",
+            "abbreviation": ["VS248"]
+        },
+        "917992": {
+            "unicode_hex": "U+E01E8",
+            "abbreviation": ["VS249"]
+        },
+        "917993": {
+            "unicode_hex": "U+E01E9",
+            "abbreviation": ["VS250"]
+        },
+        "917994": {
+            "unicode_hex": "U+E01EA",
+            "abbreviation": ["VS251"]
+        },
+        "917995": {
+            "unicode_hex": "U+E01EB",
+            "abbreviation": ["VS252"]
+        },
+        "917996": {
+            "unicode_hex": "U+E01EC",
+            "abbreviation": ["VS253"]
+        },
+        "917997": {
+            "unicode_hex": "U+E01ED",
+            "abbreviation": ["VS254"]
+        },
+        "917998": {
+            "unicode_hex": "U+E01EE",
+            "abbreviation": ["VS255"]
+        },
+        "917999": {
+            "unicode_hex": "U+E01EF",
+            "abbreviation": ["VS256"]
+        }
     }
 }
